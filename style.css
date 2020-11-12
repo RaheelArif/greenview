@@ -1,19 +1,31 @@
-h1 {
-  font-style: italic;
-  text-transform: uppercase;
-  /* letter-spacing: -4px; */
-  /* text-shadow: 3px -3px 3px red; */
-  text-shadow: 0px 0px 5px red;
+/* .para::first-line {
+  color: red;
+} */
+.heading::first-letter{
+  background-color: red;
+  color: white;
+
 }
-p {
-  text-transform: capitalize;
-  text-decoration: line-through;
-  word-spacing: 10px;
+a:visited{
+  color: red;
 }
-a {
-  text-decoration: none;
-  color: black;
+input:focus{
+background-color: rosybrown;
+color: red;
 }
-h2 {
-  text-align: right;
+h1:hover{
+color: green;
+}
+.box1{
+  min-width:  300px;
+ 
+  height: 400px;
+  background-color: greenyellow;
+}
+h1{
+  background-color: red;
+  color: white;
+  height: 100px;
+  width: 200px;
+  overflow: scroll;
 }
