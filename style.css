@@ -1,31 +1,6 @@
-/* .para::first-line {
+.mynavbar{
+  background-color: violet !important;
+}
+.mbbtn{
   color: red;
-} */
-.heading::first-letter{
-  background-color: red;
-  color: white;
-
-}
-a:visited{
-  color: red;
-}
-input:focus{
-background-color: rosybrown;
-color: red;
-}
-h1:hover{
-color: green;
-}
-.box1{
-  min-width:  300px;
- 
-  height: 400px;
-  background-color: greenyellow;
-}
-h1{
-  background-color: red;
-  color: white;
-  height: 100px;
-  width: 200px;
-  overflow: scroll;
 }
