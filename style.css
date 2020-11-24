@@ -1,73 +1,28 @@
-.header {
-  height: 80px;
-  width: 100%;
-  background-color: rgb(26, 142, 250);
-  /* margin: 0px 0px 20px 0px ; */
-}
-.heading {
+p{
+  background-color: blue;
   color: white;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+
+  border-radius: 10px 30px 50px 70px;
+  /* border-top-left-radius: 20px; */
+  border: 20px solid black;
   text-align: center;
-  margin: 0px;
+  /* display: none;
+  visibility: hidden; */
+  /* box-shadow: 0px 0px 10px rebeccapurple; */
 }
-
-.content-right {
-  /* background-color: rgb(150, 187, 17); */
-  width: 600px;
-  height: 400px;
-  margin-left: 10px;
-  margin-top: 10px;
+p:hover{
+    box-shadow: 0px 0px 20px rebeccapurple;
+color: blue;
+background-color: white;
+transition: 0.5s;
 }
-.content {
-  display: flex;
-  /* justify-content: space-between; */
-}
-.content-left {
-  /* background-color: teal; */
-  width: 392px;
-  height: 400px;
-}
-.hero {
-  height: 140px;
-  width: 100%;
-  margin-top: 10px   ;
-  background-color: rgb(221, 187, 221);
-}
-.sidebar {
-  height: 240px;
-  width: 100%;
-  margin-top: 10px   ;
-  background-color: yellowgreen;
-}
-.main-c {
-  height: 290px;
-  width: 100%;
-  
-  background-color: yellow;
-}
-.extra-c {
-  height: 90px;
-  width: 100%;
-  background-color: grey;
-  margin-top: 10px;
-}
-.image-r{
-  width: 60%;
-  height: 200px;
-  background-color: rgb(25, 185, 3);
-}
-.posts-r{
-  width: 40%;
-  height: 200px;
-  background-color: rgb(238, 141, 189);
-  margin-left: 10px;
-
-}
-.related{
-  display: flex;
-}
-.footer{
-  width: 100%;
-  height: 100px;
-  margin-top: 10px;
-  background-color: rgb(247, 171, 31);
+ol{
+  /* list-style-type: square; */
+  list-style-image: url("./icon.PNG");
+  margin-left: 50px;
+  font-size: 50px;
 }
