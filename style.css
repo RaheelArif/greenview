@@ -1,28 +1,29 @@
-p{
-  background-color: blue;
-  color: white;
-  width: 300px;
-  margin-top: 20px;
-  margin-left: 20px;
-  padding: 20px;
 
-  border-radius: 10px 30px 50px 70px;
-  /* border-top-left-radius: 20px; */
-  border: 20px solid black;
-  text-align: center;
-  /* display: none;
-  visibility: hidden; */
-  /* box-shadow: 0px 0px 10px rebeccapurple; */
+h1{
+  background-color: turquoise;
+  margin: 20px;
 }
-p:hover{
-    box-shadow: 0px 0px 20px rebeccapurple;
-color: blue;
-background-color: white;
-transition: 0.5s;
+td , th , h1{
+  padding: 10px;
 }
-ol{
-  /* list-style-type: square; */
-  list-style-image: url("./icon.PNG");
-  margin-left: 50px;
-  font-size: 50px;
+tr:hover{
+  background-color: burlywood;
+  transition: 0.5s;
+}
+table{
+  margin: 50px;
+  empty-cells: hide;
+}
+table:hover{
+  transform: scale(1.02);
+  transition: 0.5s;
+  box-shadow: 0px 10px 10px black;
+}
+img{
+  margin: 50px;
+}
+img:hover{
+  transform: scale(1.3);
+  transition: 0.5s;
+  box-shadow: 0px 10px 10px black;
 }
